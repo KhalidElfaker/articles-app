@@ -1,12 +1,48 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
+	<ion-toolbar>
+		<ion-menu-button></ion-menu-button>
+		<ion-searchbar > </ion-searchbar>
+	</ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+<ion-content padding >
+	<div hidden>
+		<ion-button color="light" href="/product-details"> Afficher </ion-button><br>
+		<ion-button color="light" href="/modify-produit"> Modifier </ion-button><br>
+		<ion-button color="light" href="/add-produit"> Ajouter Produit </ion-button><br>
+		<ion-button color="danger" href=""> SUPPRIMER </ion-button>
+	</div>
+
+	<ion-list>
+		<ion-list-header>
+			<ion-title> List produits : </ion-title>
+		</ion-list-header>
+		<ion-item href="/product-details"  lines="full">
+			produit xyz (P1235)
+		</ion-item>
+		<ion-item href="/product-details"  lines="full">
+			produit xyz (P1235)
+		</ion-item>
+		<ion-item href="/product-details"  lines="full">
+			produit xyz (P1235)
+		</ion-item>
+		<ion-item href="/product-details"  lines="full">
+			produit xyz (P1235)
+		</ion-item>
+		<ion-item href="/product-details"  lines="full">
+			produit xyz (P1235)
+		</ion-item>
+		<ion-item href="/product-details"  lines="full">
+			produit xyz (P1235)
+		</ion-item>
+		<ion-item href="/product-details"  lines="full">
+			produit xyz (P1235)
+		</ion-item>
+		<ion-item href="/product-details"  lines="full">
+			produit xyz (P1235)
+		</ion-item>
+		<ion-item href="/product-details"  lines="full">
+			produit xyz (P1235)
+		</ion-item>			
+	</ion-list>
 </ion-content>
